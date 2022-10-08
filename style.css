@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+}
+
+.site {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.moon {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
